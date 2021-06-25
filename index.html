@@ -2,7 +2,7 @@
     
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Bi-directional architecture</title>
+    <title>Bionets</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -184,125 +184,18 @@
                 </ul>
             </div>
         </div>
-
-        <div class="row">
-            <h1 class="col-md-12 text-center">
-                <!-- Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis -->
-                BiX-Net: Searching Efficient Bi-directional Architecture for Medical Image Segmentation
-            <br /><br />
-            <!-- <small>
-                CVPR 2021 (Oral presentation)
-            </small>
-            <br /><br /> -->
-            </h1>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <ul class="list-inline">
-                     <li>
-                        Xinyi Wang
-                        <sup>1</sup>
-                    </li>
-                    <li>
-                        <a href="https://scholar.google.com/citations?user=sskixKkAAAAJ&hl">
-                          Tiange Xiang
-                        </a><sup>1</sup>
-                    </li>
-                    <li>
-                        <a href="https://chaoyivision.github.io/">
-                        Chaoyi Zhang
-                        </a><sup>1</sup>
-                    </li>
-                    <li>
-                        <a href="http://www.cse.unsw.edu.au/~ysong/">
-                        Yang Song
-                        </a><sup>2</sup>
-                    </li>
-                    <li>
-                        Dongnan Liu
-                        </a><sup>1</sup>
-                    </li>
-                    <li>
-                        Heng Huang
-                        </a><sup>2</sup>
-                    </li>
-                     <li>
-                        <a href="https://weidong-tom-cai.github.io/">
-                          Weidong Cai
-                        </a><sup>1</sup>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <ul class="list-inline">
-                    <li>
-                        <sup>1</sup>University of Sydney
-                    </li>
-                    <li>
-                        <sup>2</sup>University of New South Wales
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <ul class="nav nav-pills nav-justified">
-                    <li>
-                        <!-- need to change -->
-                        <a href="https://arxiv.org/pdf/2103.05558.pdf" target='_blank'>
-                        <img src="./index_files/images/paper.png" height="80px"><br>
-                            <h4><strong>Main Paper</strong></h4>
-                        </a>
-                    </li>
-                    <li>
-                        <!-- need to change -->
-                        <a href="./supplementary.pdf" target='_blank'>
-                        <img src="./index_files/images/supp.png" height="80px"><br>
-                            <h4><strong>Supp. Materials</strong></h4>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#video">
-                        <img src="index_files/images/youtube_icon_dark.png" height="80px"><br>
-                            <h4><strong>Video</strong></h4> <p style="color:blue;font-size:11px;">(Coming soon)</p>
-                        </a>
-                    </li>
-                     <!-- <li>
-                        <a href="#dataset">
-                        <img src="./index_files/images/data.png" height="80px"><br>
-                            <h4><strong>Data</strong></h4>
-                        </a>
-                    </li> -->
-                    <li>
-                        <a href="">
-                        <img src="./index_files/images/github_pad.png" height="80px"><br>
-                            <h4><strong>Code</strong></h4> <p style="color:blue;font-size:11px;">(Coming soon)</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#BibTeX">
-                        <img src="./index_files/images/bibtex.jpg" height="80px"><br>
-                            <h4><strong>BibTeX</strong></h4> <p style="color:blue;font-size:11px;">(Coming soon)</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
         
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
                     Overview
                 </h3>
+
                 <img src="./index_files/images/bionet_teaser.png" class="img-responsive" alt="overview"><br>
                 <p class="text-justify">
-                    In this work, we study a multi-scale upgrade of a bi-directional skip connected network and then automatically discover an efficient architecture by a novel two-phase Neural Architecture Search (NAS) algorithm, namely BiX-NAS. 
-                    Our proposed method reduces the network computational cost by sifting out ineffective multi-scale features at different levels and iterations. 
-                    We evaluate BiX-NAS on two segmentation tasks using three different medical image datasets, and the experimental results show that our BiX-NAS searched architecture achieves the state-of-the-art performance with significantly lower computational cost. 
+                    In this paper, we present a novel Bi-directional O-shape network (BiO-Net) that reuses the building blocks in a recurrent manner without introducing any extra parameters. 
+                    Our proposed bi-directional skip connections can be directly adopted into any encoder-decoder architecture to further enhance its capabilities in various task domains. 
+                    We evaluated our method on various medical image analysis tasks and the results show that our BiO-Net significantly outperforms the vanilla U-Net as well as other state-of-the-art methods. 
                 </p>
             </div>
         </div>
@@ -369,5 +262,115 @@
         </div>
     </div>
 
+    <!-- BiX-Net starts here -->
+    <div class="row">
+        <h1 class="col-md-12 text-center">
+            BiX-Net: Searching Efficient Bi-directional Architecture for Medical Image Segmentation
+        <br /><br />
+        <h2 class="col-md-12 text-center">
+            BiX-Net: Searching Efficient Bi-directional Architecture for Medical Image Segmentation
+        <br /><br />
+        <!-- <small>
+            CVPR 2021 (Oral presentation)
+        </small>
+        <br /><br /> -->
+        </h1>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <ul class="list-inline">
+                 <li>
+                    Xinyi Wang
+                    <sup>1</sup>
+                </li>
+                <li>
+                    <a href="https://scholar.google.com/citations?user=sskixKkAAAAJ&hl">
+                      Tiange Xiang
+                    </a><sup>1</sup>
+                </li>
+                <li>
+                    <a href="https://chaoyivision.github.io/">
+                    Chaoyi Zhang
+                    </a><sup>1</sup>
+                </li>
+                <li>
+                    <a href="http://www.cse.unsw.edu.au/~ysong/">
+                    Yang Song
+                    </a><sup>2</sup>
+                </li>
+                <li>
+                    Dongnan Liu
+                    </a><sup>1</sup>
+                </li>
+                <li>
+                    Heng Huang
+                    </a><sup>2</sup>
+                </li>
+                 <li>
+                    <a href="https://weidong-tom-cai.github.io/">
+                      Weidong Cai
+                    </a><sup>1</sup>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <ul class="list-inline">
+                <li>
+                    <sup>1</sup>University of Sydney
+                </li>
+                <li>
+                    <sup>2</sup>University of New South Wales
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+            <ul class="nav nav-pills nav-justified">
+                <li>
+                    <!-- need to change -->
+                    <a href="https://arxiv.org/pdf/2103.05558.pdf" target='_blank'>
+                    <img src="./index_files/images/paper.png" height="80px"><br>
+                        <h4><strong>Main Paper</strong></h4>
+                    </a>
+                </li>
+                <li>
+                    <!-- need to change -->
+                    <a href="./supplementary.pdf" target='_blank'>
+                    <img src="./index_files/images/supp.png" height="80px"><br>
+                        <h4><strong>Supp. Materials</strong></h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#video">
+                    <img src="index_files/images/youtube_icon_dark.png" height="80px"><br>
+                        <h4><strong>Video</strong></h4> <p style="color:blue;font-size:11px;">(Coming soon)</p>
+                    </a>
+                </li>
+                 <!-- <li>
+                    <a href="#dataset">
+                    <img src="./index_files/images/data.png" height="80px"><br>
+                        <h4><strong>Data</strong></h4>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="">
+                    <img src="./index_files/images/github_pad.png" height="80px"><br>
+                        <h4><strong>Code</strong></h4> <p style="color:blue;font-size:11px;">(Coming soon)</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#BibTeX">
+                    <img src="./index_files/images/bibtex.jpg" height="80px"><br>
+                        <h4><strong>BibTeX</strong></h4> <p style="color:blue;font-size:11px;">(Coming soon)</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
 </body></html>
