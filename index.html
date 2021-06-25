@@ -36,15 +36,15 @@
 <body data-gr-c-s-loaded="true">
     <div class="container" id="main">
         <div class="row">
-            <h1 class="col-md-12 text-center">
-                <!-- Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis -->
+            <!-- <h1 class="col-md-12 text-center">
                 BiO-Net: Learning Recurrent Bi-directional Connections for Encoder-Decoder Architecture
             <br /><br />
-            <!-- <small>
-                CVPR 2021 (Oral presentation)
-            </small>
-            <br /><br /> -->
-            </h1>
+            </h1> -->
+
+            <h2 class="col-md-12 text-center">
+                BiO-Net: Learning Recurrent Bi-directional Connections for Encoder-Decoder Architecture
+            <br /><br />
+            </h2>
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
@@ -260,22 +260,17 @@
                 <p></p>
             </div>
         </div>
-    </div>
 
+
+    
     <!-- BiX-Net starts here -->
     <div class="row">
-        <h1 class="col-md-12 text-center">
-            BiX-Net: Searching Efficient Bi-directional Architecture for Medical Image Segmentation
-        <br /><br />
         <h2 class="col-md-12 text-center">
             BiX-Net: Searching Efficient Bi-directional Architecture for Medical Image Segmentation
         <br /><br />
-        <!-- <small>
-            CVPR 2021 (Oral presentation)
-        </small>
-        <br /><br /> -->
-        </h1>
+        </h2>
     </div>
+
     <div class="row">
         <div class="col-md-12 text-center">
             <ul class="list-inline">
@@ -372,5 +367,86 @@
             </ul>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>
+                Overview
+            </h3>
+
+            <img src="./index_files/images/bionet_teaser.png" class="img-responsive" alt="overview"><br>
+            <p class="text-justify">
+                In this work, we study a multi-scale upgrade of a bi-directional skip connected network and then automatically discover an efficient architecture by a novel two-phase Neural Architecture Search (NAS) algorithm, namely BiX-NAS. 
+                Our proposed method reduces the network computational cost by sifting out ineffective multi-scale features at different levels and iterations. 
+                We evaluate BiX-NAS on two segmentation tasks using three different medical image datasets, and the experimental results show that our BiX-NAS searched architecture achieves the state-of-the- art performance with significantly lower computational cost. 
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>
+                Highlights
+            </h3>
+            <p class="text-justify">
+                <ul>
+                    <li>
+                        Study the multi-scale fusion scheme in a recurrent bi-directional manner, and present an effective two-phase Neu- ral Architecture Search (NAS) strategy, namely BiX-NAS, that automatically searches for the optimal bi-directional architecture. 
+                    </li>
+                    <li>
+                        Analyze the bottleneck of the searching deficiency in classic evolution-based search algorithms, and propose a novel progressive evolution algorithm to further discover a subset of searched candidate skips and accelerate the searching process.
+                        <!-- State-of-the-art accuracy on ModelNet40 classification: <b>93.8%</b> <i style="color:gray;font-size:8px;">w/o voting</i>, <b>94.2%</b> <i style="color:gray;font-size:8px;">w/ voting</i>. -->
+                    </li>
+                    <li>
+                        Benchmark on three medical image segmentation datasets, and surpass other state-of-the-art counterparts by a considerable margin.
+                    </li>
+                    <li>
+                        State-of-the-art mIoU and DICE with significantly lower computational cost: <b>0.43M</b> parameters, <b>38.60G</b> computations.
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <div class="row" id="video">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>Video</h3><p style="color:blue;font-size:11px;">(Coming soon)</p>
+            <!-- <div class="text-center">
+                <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
+                    <source src="" type="video/mp4">
+                </video>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="row" id="BibTeX">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>
+                BibTeX
+            </h3>
+           If you find our data or project useful in your research, please cite:<p style="color:blue;font-size:11px;">(Coming soon)</p>
+            <!-- <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 10px">
+@inproceedings{SGGpoint,
+title = {Exploiting Edge-Oriented Reasoning for 3D Point-based Scene Graph Analysis},
+author = {Zhang, Chaoyi and Yu, Jianhui and Song, Yang and Cai, Weidong},
+booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+year = {2021}
+}</pre> -->
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>
+                Acknowledgments
+            </h3>
+            The website template was borrowed from <a href="https://sggpoint.github.io">Chaoyi Zhang</a>.
+            <p></p>
+        </div>
+    </div>
+
+</div>
+    
+
 
 </body></html>
