@@ -212,7 +212,7 @@
                 <p class="text-justify">
                     <ul>
                         <li>
-                            A compact substitute of U-Net utilizes paired forward and backward skip connections to compose a complex relation between the encoder and decoder.
+                            A compact substitute of U-Net with paired forward and backward skip connections.
                         </li>
                         <li>
                             Recursed to reuse the parameters during training and inference. 
@@ -222,7 +222,7 @@
                             State-of-the-art mIoU (<b>0.704</b>) and DICE (<b>0.825</b>) on nuclei segmentation without introducing auxiliary parameters.
                         </li>
                         <li>
-                            State-of-the-art PSNR score on super resolution tasks: <b>0.958</b>.
+                            State-of-the-art PSNR score (<b>0.958</b>) on super resolution tasks.
                         </li>
                     </ul>
                 </p>
@@ -230,14 +230,17 @@
                 <p class="text-justify">
                     <ul>
                         <li>
-                            Study the multi-scale fusion scheme in a recurrent bi-directional manner, and present an effective two-phase Neu- ral Architecture Search (NAS) strategy, namely BiX-NAS, that automatically searches for the optimal bi-directional architecture. 
+                            Study the multi-scale fusion scheme in a recurrent bi-directional manner
+                        </li>
+                        <li>
+                            Present an effective two-phase Neural Architecture Search (NAS) strategy, namely BiX-NAS, that automatically searches for the optimal bi-directional architecture. 
                         </li>
                         <li>
                             Analyze the bottleneck of the searching deficiency in classic evolution-based search algorithms, and propose a novel progressive evolution algorithm to further discover a subset of searched candidate skips and accelerate the searching process.
                             <!-- State-of-the-art accuracy on ModelNet40 classification: <b>93.8%</b> <i style="color:gray;font-size:8px;">w/o voting</i>, <b>94.2%</b> <i style="color:gray;font-size:8px;">w/ voting</i>. -->
                         </li>
                         <li>
-                            Benchmark on three medical image segmentation datasets, and surpass other state-of-the-art counterparts by a considerable margin.
+                            Surpass other state-of-the-art counterparts by a considerable margin on three medical image segmentation datasets.
                         </li>
                         <li>
                             State-of-the-art mIoU and DICE with significantly lower computational cost: <b>0.43M</b> parameters, <b>38.60G</b> computations.
@@ -246,6 +249,42 @@
                 </p>
             </div>
         </div>
+
+
+        <div class="row" id="video">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Video</h3>
+                <h4><strong>BiO-Net</strong></h4>
+                <p style="color:blue;font-size:11px;">(Coming soon)</p>
+                <h4><strong>BiX-NAS</strong></h4>
+                <p style="color:blue;font-size:11px;">(Coming soon)</p>
+                <!-- <div class="text-center">
+                    <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
+                        <source src="" type="video/mp4">
+                    </video>
+                </div> -->
+            </div>
+        </div>
+
+
+        <div class="row" id="BibTeX">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    BibTeX
+                </h3>
+               If you find our data or project useful in your research, please cite:<p style="color:blue;font-size:11px;">(Coming soon)</p>
+                <!-- <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 10px">
+@inproceedings{SGGpoint,
+    title = {Exploiting Edge-Oriented Reasoning for 3D Point-based Scene Graph Analysis},
+    author = {Zhang, Chaoyi and Yu, Jianhui and Song, Yang and Cai, Weidong},
+    booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year = {2021}
+}</pre> -->
+            </div>
+        </div>
+
+
+
 
         <div class="row">
             <!-- <h1 class="col-md-12 text-center">
@@ -570,7 +609,18 @@
                 <h3>
                     BibTeX
                 </h3>
-               If you find our data or project useful in your research, please cite:<p style="color:blue;font-size:11px;">(Coming soon)</p>
+                If you find our data or project useful in your research, please cite:
+                <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 10px">
+                    @inproceedings{xiang2020bio,
+                        title={BiO-Net: Learning Recurrent Bi-directional Connections for Encoder-Decoder Architecture},
+                        author={Xiang, Tiange and Zhang, Chaoyi and Liu, Dongnan and Song, Yang and Huang, Heng and Cai, Weidong},
+                        booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+                        pages={74--84},
+                        year={2020},
+                        organization={Springer}
+                    }
+                }</pre>
+                <p style="color:blue;font-size:11px;">(To be continued)</p>
                 <!-- <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 10px">
 @inproceedings{SGGpoint,
     title = {Exploiting Edge-Oriented Reasoning for 3D Point-based Scene Graph Analysis},
@@ -581,7 +631,7 @@
             </div>
         </div>
 
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
                     Acknowledgments
@@ -589,9 +639,9 @@
                 The website template was borrowed from <a href="https://sggpoint.github.io">Chaoyi Zhang</a>.
                 <p></p>
             </div>
-        </div> -->
+        </div>
 
-
+    
     
     <!-- overview of BiX-NAS -->
     <div class="row">
