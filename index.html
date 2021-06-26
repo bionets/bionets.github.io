@@ -46,7 +46,7 @@
             </h1>
         </div>
 
-        <div class="row"></div>
+        <div class="row">
             <div class="col-md-12 text-center">
                 <ul class="list-inline">
                     <li>
@@ -70,39 +70,53 @@
             <br /><br />
             </h2> -->
 
-
-        <!-- <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>Paper</h3>   
-                <h4><strong>BiO-Net</strong></h4>
-                <p class="text-justify">
-                    <ul>
-                        <li>
-                            BiO-Net: Learning recurrent bi-directional connections for encoder-decoder architecture.
-                        </li>
-                        <li>
-                            <p class="text-justify">
-                                <a href="https://scholar.google.com/citations?user=sskixKkAAAAJ&hl">
-                                    Tiange Xiang</a><sup>1</sup>,
-                                <a href="https://chaoyivision.github.io/">
-                                    Chaoyi Zhang</a><sup>1</sup>, 
-                                    Dongnan Liu</a><sup>1</sup>,
-                                <a href="http://www.cse.unsw.edu.au/~ysong/">
-                                    Yang Song</a><sup>2</sup>,
-                                    Heng Huang</a><sup>3,4</sup>, and 
-                                <a href="https://weidong-tom-cai.github.io/">
-                                    Weidong Cai</a><sup>1</sup>. 
-                            </p>
-                        </li>
-                        <li>
-                            <p class="text-justify">
-                                In <i>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI2021)</i>. Springer.
-                            </p>
-                        </li>
-                    </ul>
+        <ul class="nav nav-pills nav-justified">
+            <li>
+                <!-- need to change -->
+                <a href="https://arxiv.org/abs/2007.00243.pdf" target='_blank'>
+                <img src="./index_files/images/bionet_paper.png" height="80px"><br>
+                    <h4><strong>Main Paper</strong></h4>
+                </a>
+                <p>
+                    [BiO-Net]
                 </p>
-            </div>
-        </div>   -->
+                <p>
+                    [BiX-NAS]
+                </p>
+
+            </li>
+            <li>
+                <a href="./bionet_supplementary.pdf" target='_blank'>
+                <img src="./index_files/images/bionet_supp.png" height="80px"><br>
+                    <h4><strong>Supp. Materials</strong></h4>
+                </a>
+            </li>
+            <li>
+                <a href="#video">
+                <img src="index_files/images/youtube_icon_dark.png" height="80px"><br>
+                    <h4><strong>Video</strong></h4> <p style="color:blue;font-size:11px;">(Coming soon)</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/tiangexiang/BiO-Net">
+                <img src="./index_files/images/github_pad.png" height="80px"><br>
+                    <h4><strong>Code</strong></h4> 
+                </a>
+                <a href="https://github.com/tiangexiang/BiO-Net">
+                <p>[BiO-Net]</p>
+                </a>
+                <a href="https://github.com/tiangexiang/BiX-NAS"></a>
+                <p>[BiX-NAS]</p>
+                </a>
+            </li>
+            <li>
+                <a href="#BibTeX">
+                <img src="./index_files/images/bibtex.jpg" height="80px"><br>
+                    <h4><strong>BibTeX</strong></h4> 
+                </a>
+            </li>
+        </ul>
+
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -315,9 +329,6 @@
                         <li>
                             State-of-the-art mIoU (<b>0.704</b>) and DICE (<b>0.825</b>) on nuclei segmentation without introducing auxiliary parameters.
                         </li>
-                        <li>
-                            State-of-the-art PSNR score (<b>0.958</b>) on super resolution tasks.
-                        </li>
                     </ul>
                 </p>
                 <h4><strong>BiX-NAS</strong></h4>
@@ -334,7 +345,7 @@
                             Surpass other state-of-the-art counterparts by a considerable margin on three medical image segmentation datasets.
                         </li>
                         <li>
-                            State-of-the-art mIoU and DICE with significantly lower computational cost: <b>0.43M</b> parameters, <b>38.60G</b> computations.
+                            State-of-the-art mIoU and DICE with significantly lower computational cost: <b>0.43M</b> parameters, <b>38.60G</b> MACs.
                         </li>
                     </ul>
                 </p>
