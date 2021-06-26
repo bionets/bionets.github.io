@@ -176,10 +176,76 @@
                         </a>
                     </li>
                 </ul>
-
             </div>
         </div>
 
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Overview
+                </h3>
+                <h4><strong>BiO-Net</strong></h4>
+                <img src="./index_files/images/bionet_teaser.png" class="img-responsive" alt="overview"><br>
+                <p class="text-justify">
+                    In this paper, we present a novel Bi-directional O-shape network (BiO-Net) that reuses the building blocks in a recurrent manner without introducing any extra parameters. 
+                    Our proposed bi-directional skip connections can be directly adopted into any encoder-decoder architecture to further enhance its capabilities in various task domains. 
+                    We evaluated our method on various medical image analysis tasks and the results show that our BiO-Net significantly outperforms the vanilla U-Net as well as other state-of-the-art methods. 
+                </p>
+                <h4><strong>BiX-NAS</strong></h4>
+                <img src="./index_files/images/bixnet_teaser.png" class="img-responsive" alt="overview"><br>
+                <p class="text-justify">
+                    In this work, we study a multi-scale upgrade of a bi-directional skip connected network and then automatically discover an efficient architecture by a novel two-phase Neural Architecture Search (NAS) algorithm, namely BiX-NAS. 
+                    Our proposed method reduces the network computational cost by sifting out ineffective multi-scale features at different levels and iterations. 
+                    We evaluate BiX-NAS on two segmentation tasks using three different medical image datasets, and the experimental results show that our BiX-NAS searched architecture achieves the state-of-the- art performance with significantly lower computational cost. 
+                </p>
+            </div>
+        </div>
+                
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Highlights
+                </h3>
+                <h4><strong>BiO-Net</strong></h4>
+                <p class="text-justify">
+                    <ul>
+                        <li>
+                            A compact substitute of U-Net utilizes paired forward and backward skip connections to compose a complex relation between the encoder and decoder.
+                        </li>
+                        <li>
+                            Recursed to reuse the parameters during training and inference. 
+                            <!-- State-of-the-art accuracy on ModelNet40 classification: <b>93.8%</b> <i style="color:gray;font-size:8px;">w/o voting</i>, <b>94.2%</b> <i style="color:gray;font-size:8px;">w/ voting</i>. -->
+                        </li>
+                        <li>
+                            State-of-the-art mIoU (<b>0.704</b>) and DICE (<b>0.825</b>) on nuclei segmentation without introducing auxiliary parameters.
+                        </li>
+                        <li>
+                            State-of-the-art PSNR score on super resolution tasks: <b>0.958</b>.
+                        </li>
+                    </ul>
+                </p>
+                <h4><strong>BiX-NAS</strong></h4>
+                <p class="text-justify">
+                    <ul>
+                        <li>
+                            Study the multi-scale fusion scheme in a recurrent bi-directional manner, and present an effective two-phase Neu- ral Architecture Search (NAS) strategy, namely BiX-NAS, that automatically searches for the optimal bi-directional architecture. 
+                        </li>
+                        <li>
+                            Analyze the bottleneck of the searching deficiency in classic evolution-based search algorithms, and propose a novel progressive evolution algorithm to further discover a subset of searched candidate skips and accelerate the searching process.
+                            <!-- State-of-the-art accuracy on ModelNet40 classification: <b>93.8%</b> <i style="color:gray;font-size:8px;">w/o voting</i>, <b>94.2%</b> <i style="color:gray;font-size:8px;">w/ voting</i>. -->
+                        </li>
+                        <li>
+                            Benchmark on three medical image segmentation datasets, and surpass other state-of-the-art counterparts by a considerable margin.
+                        </li>
+                        <li>
+                            State-of-the-art mIoU and DICE with significantly lower computational cost: <b>0.43M</b> parameters, <b>38.60G</b> computations.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
 
         <div class="row">
             <!-- <h1 class="col-md-12 text-center">
