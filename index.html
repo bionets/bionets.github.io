@@ -42,7 +42,8 @@
             </h1> -->
 
             <h1 class="col-md-12 text-center">
-                BiO-Nets
+            <h1 style="font-family:courier;text-align:center;font-style:italic;">
+                The BiO-Nets
             </h1>
         </div>
 
@@ -370,11 +371,14 @@
                     <strong>BiX-NAS</strong>
                     <ul>
                         <li>
-                            Study the multi-scale fusion scheme in a recurrent bi-directional manner, and present an effective two-phase Neural Architecture Search (NAS) strategy, namely BiX-NAS, that automatically searches for the optimal bi-directional architecture (BiX-Net). 
+                            Present a multi-scale upgrade of BiO-Net++ following the recurrent bi-directional paradigm.
                         </li>
                         <li>
-                            Analyze the bottleneck of the searching deficiency in classic evolution-based search algorithms, and propose a novel progressive evolution algorithm to further discover a subset of searched candidate skips and accelerate the searching process.
+                            Design an effective Neural Architecture Search (NAS) strategy, namely BiX-NAS, that automatically searches for the optimal bi-directional architecture (BiX-Net).
                             <!-- State-of-the-art accuracy on ModelNet40 classification: <b>93.8%</b> <i style="color:gray;font-size:8px;">w/o voting</i>, <b>94.2%</b> <i style="color:gray;font-size:8px;">w/ voting</i>. -->
+                        </li>
+                        <li>
+                            Propose a new progressive evolution search strategy overcoming the searching deficiency in classic evolution-based search algorithms.
                         </li>
                         <li>
                             Surpass other state-of-the-art counterparts by a considerable margin on three medical image segmentation datasets.
@@ -383,6 +387,16 @@
                             State-of-the-art mIoU and DICE with significantly lower computational cost: <b>0.43M</b> parameters, <b>38.60G</b> MACs.
                         </li>
                     </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Qualitative Results</h3>
+                <img src="index_files/images/fig3.png" height="80px"><br>
+                <p class="text-center">
+                    Qualitative comparisons on MoNuSeg and TNBC datasets for nuclei segmentation, and CHAOS dataset for multi-class organ segmentation.
                 </p>
             </div>
         </div>
@@ -415,15 +429,15 @@
     pages={74--84},
     year={2020},
     organization={Springer}
+
 @inproceedings{wang2021bix,
     title={BiX-NAS: Searching Efficient Bi-directional Architecture for Medical Image Segmentation},
     author={Xiang, Tiange and Zhang, Chaoyi and Liu, Dongnan and Song, Yang and Huang, Heng and Cai, Weidong},
     booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
-    <!-- pages={}, -->
     year={2021},
     organization={Springer}
 }</pre>
-                <p style="color:blue;font-size:11px;">(To be continued)</p>
+                <!-- <p style="color:blue;font-size:11px;">(To be continued)</p> -->
                 <!-- <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 10px">
 @inproceedings{SGGpoint,
     title = {Exploiting Edge-Oriented Reasoning for 3D Point-based Scene Graph Analysis},
